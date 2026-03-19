@@ -205,3 +205,83 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+### =========================
+# Data files (DO NOT COMMIT)
+# =========================
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ods
+*.zip
+*.tar
+*.gz
+
+# If you extract datasets
+data/
+datasets/
+train/
+test/
+
+# =========================
+# Model artifacts
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# Optional: if you don't want to commit outputs
+# (careful, usually better to keep notebooks)
+# *.ipynb
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.envrc/
+.venv/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
