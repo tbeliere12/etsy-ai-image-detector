@@ -218,12 +218,14 @@ __marimo__/
 *.zip
 *.tar
 *.gz
+*.png
 
 # If you extract datasets
 data/
 datasets/
 train/
 test/
+images/
 
 # =========================
 # Model artifacts
