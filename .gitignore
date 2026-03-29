@@ -219,6 +219,7 @@ __marimo__/
 *.tar
 *.gz
 *.png
+*.jpg
 
 # If you extract datasets
 data/
