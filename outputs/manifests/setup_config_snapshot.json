@@ -1,0 +1,77 @@
+{
+  "project_root_override": null,
+  "root_markers": [
+    "data2",
+    "notebooks"
+  ],
+  "challenge_rel_dir": "data2/etsy_challenge",
+  "train_csv_name": "train.csv",
+  "test_csv_name": "test.csv",
+  "shared_image_dirs_candidates": [
+    "images_final_sample",
+    "final_test_images",
+    "images",
+    "train_images"
+  ],
+  "extract_archives": true,
+  "archive_specs": [
+    {
+      "zip_path": "data2/etsy_challenge/genai_image_challenge.zip",
+      "extract_to": "data2/etsy_challenge"
+    }
+  ],
+  "overwrite_extracted_folders": false,
+  "outputs_rel_dir": "outputs",
+  "save_image_metadata": true,
+  "sample_size_for_quick_checks": null,
+  "positive_label": "ai_generated",
+  "negative_label": "authentic",
+  "etsy_label_map": {
+    "1": "ai_generated",
+    "0": "authentic"
+  },
+  "external_sources": [
+    {
+      "name": "ai5_3",
+      "enabled": true,
+      "type": "folder_by_class",
+      "root_dir": "data2/other_datasets/kaggle_datasets/ai5_3",
+      "authentic_subdir": "real_dataset",
+      "ai_generated_subdir": "Ai_generated_dataset",
+      "glob_patterns": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.webp"
+      ]
+    },
+    {
+      "name": "scraped_2",
+      "enabled": false,
+      "type": "folder_by_class",
+      "root_dir": "data2/other_datasets/kaggle_datasets/scraped_2",
+      "authentic_subdir": "RealArt",
+      "ai_generated_subdir": "AiArtData",
+      "glob_patterns": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.webp"
+      ]
+    },
+    {
+      "name": "shoes_1",
+      "enabled": false,
+      "type": "folder_by_class",
+      "root_dir": "data2/other_datasets/kaggle_datasets/shoes_1",
+      "authentic_subdir": "real",
+      "ai_generated_subdir": "ai-midjourney",
+      "glob_patterns": [
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.webp"
+      ]
+    }
+  ]
+}
