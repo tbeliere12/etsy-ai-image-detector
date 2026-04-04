@@ -1,0 +1,17 @@
+{
+    "f1_05": 0.8216032319795875,
+    "best_threshold": 0.3999999999999998,
+    "best_f1": 0.8297177961220964,
+    "precision_ai_generated": 0.7467173462335868,
+    "recall_ai_generated": 0.9334773218142549,
+    "fold_f1_mean_05": 0.8215954960749766,
+    "fold_f1_std_05": 0.010597766302283084,
+    "best_fold": 2,
+    "best_fold_f1_05": 0.8365180467091295,
+    "train_manifest": "/home/tbeliere/Projects/DCU/AML_PJ/outputs/manifests/train_manifest_etsy_only.csv",
+    "test_manifest": "/home/tbeliere/Projects/DCU/AML_PJ/outputs/manifests/test_manifest_etsy.csv",
+    "classifier_type": "rf",
+    "use_class_weights": true,
+    "n_features": 61,
+    "feature_cache_dir": "/home/tbeliere/Projects/DCU/AML_PJ/outputs/experiments/features_rf_etsy_only_v1/cache/features"
+}

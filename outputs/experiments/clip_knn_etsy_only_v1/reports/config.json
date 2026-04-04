@@ -1,0 +1,27 @@
+{
+    "project_root_override": null,
+    "root_markers": [
+        "data2",
+        "outputs"
+    ],
+    "train_manifest_relpath": "outputs/manifests/train_manifest_etsy_only.csv",
+    "test_manifest_relpath": "outputs/manifests/test_manifest_etsy.csv",
+    "experiment_name": "clip_knn_etsy_only_v1",
+    "positive_label": "ai_generated",
+    "negative_label": "authentic",
+    "device": "cuda",
+    "clip_model_name": "openai/clip-vit-base-patch32",
+    "batch_size": 32,
+    "normalize_embeddings": true,
+    "cache_embeddings": true,
+    "random_state": 42,
+    "n_splits": 5,
+    "classifier_type": "knn",
+    "knn_n_neighbors": 5,
+    "knn_weights": "distance",
+    "knn_metric": "euclidean",
+    "use_class_weights": false,
+    "save_oof_csv": true,
+    "save_test_probs_csv": true,
+    "save_submission_csv": true
+}
