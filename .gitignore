@@ -220,6 +220,12 @@ __marimo__/
 *.gz
 *.png
 *.jpg
+*.jpeg
+*.bmp
+*.gif
+*.svg
+*.gif
+*.webp
 
 # If you extract datasets
 data/

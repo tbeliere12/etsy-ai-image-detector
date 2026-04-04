@@ -1,0 +1,16 @@
+{
+    "f1_05": 0.8249787595581988,
+    "best_threshold": 0.48,
+    "best_f1": 0.8300395256916996,
+    "precision_ai_generated": 0.800561797752809,
+    "recall_ai_generated": 0.8617710583153347,
+    "fold_f1_mean_05": 0.8249391142584385,
+    "fold_f1_std_05": 0.012430043288967949,
+    "best_fold": 2,
+    "best_fold_f1_05": 0.8480340063761955,
+    "train_manifest": "/home/tbeliere/Projects/DCU/AML_PJ/outputs/manifests/train_manifest_etsy_only.csv",
+    "test_manifest": "/home/tbeliere/Projects/DCU/AML_PJ/outputs/manifests/test_manifest_etsy.csv",
+    "clip_model_name": "openai/clip-vit-base-patch32",
+    "classifier_type": "logreg",
+    "use_class_weights": true
+}
