@@ -1,0 +1,18 @@
+{
+    "f1_05": 0.9125717932354818,
+    "best_threshold": 0.51,
+    "best_f1": 0.914187887866467,
+    "precision_ai_generated": 0.905852417302799,
+    "recall_ai_generated": 0.9226781857451404,
+    "n_models": 3,
+    "input_models": [
+        "resnet50",
+        "clip_logreg",
+        "features_rf"
+    ],
+    "best_weights": {
+        "resnet50": 0.24,
+        "clip_logreg": 0.27,
+        "features_rf": 0.49
+    }
+}
